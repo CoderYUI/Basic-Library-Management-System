@@ -92,7 +92,7 @@ public class Library {
         else {
             count = count - 1;
             book.setId(0);
-            book.setAvailable(false);
+            book.setAvailable(null);
             book.setAuthor(null);
             book.setTitle(null);
             System.out.println("Book removed Successfully");

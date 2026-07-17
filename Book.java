@@ -41,7 +41,7 @@ public class Book {
         this.author = author;
     }
 
-    public void setAvailable(boolean available){
+    public void setAvailable(Boolean available){
         this.available = available;
     }
 
